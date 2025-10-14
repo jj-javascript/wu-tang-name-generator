@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Application that takes in information from the user and generates a Wu-Tang name for them">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="one, two, three">
+
+        <title>Wu-Tang Name Generator</title>
+        <link rel = "stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <h1> Wu-Tang Name Generator </h1>
+
+        <fieldset id="fieldset">
+            <legend>What name style do you prefer?</legend>
+            <div>
+                <input type="radio" id="classic" name="nameStyle" value="classic">
+                <label for="classic">Classic</label>
+            </div>
+
+            <div>
+                <input type="radio" id="neoclassic" name="nameStyle" value="neoclassic">
+                <label for="neoclassic">Neo-Classic</label>
+            </div>
+
+            <div>
+                <input type="radio" id="aughts" name="nameStyle" value="aughts">
+                <label for="aughts">Aughts</label>
+            </div>
+
+            <div>
+                <input type="radio" id="modern" name="nameStyle" value="modern">
+                <label for="modern">Modern</label>
+            </div>
+
+            <div>
+                <input type="radio" id="postmodern" name="nameStyle" value="postmodern">
+                <label for="postmodern">Post-Modern</label>
+            </div>
+
+        </fieldset>
+
+        <label>If you ruled the world (imagine that), what would your title be?</label>
+        <div>
+            <input type="text" placeholder="Enter your answer here">
+        </div>
+
+        <input type="submit" id="submit">
+
+        <script type="text/javascript" src="js/main.js"></script>
+    </body>
+</html>
