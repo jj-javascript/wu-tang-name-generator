@@ -1,13 +1,8 @@
-# 5 Pillars of Hip-Hop Matching Card Game
+# Wu-Tang Name Generator
 
-A matching card game with a theme based on the 5 Pillars of Hip-Hop:
-- MCing
-- Graffiti Art
-- Breakdancing
-- Knowledge
-- DJing
+- An application that generates a rap name for users based on their information.
 
-## [Live Demo](https://jj-javascript.github.io/Matching-Card-Game/)
+## [Live Demo](https://jj-javascript.github.io/wu-tang-name-generator/)
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -18,13 +13,13 @@ A matching card game with a theme based on the 5 Pillars of Hip-Hop:
 
 ## Project Overview
 
-The 5 Pillars of Hip-Hop Matching Card Game is an interactive game where users try to find all of the pairs of matching cards.
-<img width="930" height="654" alt="Matching Card Game" src="https://github.com/user-attachments/assets/d50d459e-66d6-4ccf-b5f7-c3de5c6954fe" />
+An application that will help users generate their own rap names through a survey form.
+<img width="995" height="570" alt="Wu-Tang Name Gen" src="https://github.com/user-attachments/assets/e4ae8c4a-9f36-46f6-8e71-f6739c840423" />
 
 ## Features
 
-- Interactive interface for users to find matching card pairs.
-- Responsive application that tells the user when they win or lose.
+- Form where users type in their information.
+- Responsive application that returns a rap name to users.
   
 ## Technologies Used
 
@@ -35,13 +30,13 @@ The 5 Pillars of Hip-Hop Matching Card Game is an interactive game where users t
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Matching-Card-Game.git
+git clone https://github.com/yourusername/wu-tang-name-generator.git
 ````
 
 2. Navigate to the project directory:
 
 ```bash
-cd Matching-Card-Game
+cd wu-tang-name-generator
 ```
 
 3. Open Project File
@@ -50,7 +45,5 @@ cd Matching-Card-Game
    
 ## Usage
 
-1. Click on a card.
-2. Choose next card to see if they make a match.
-3. If you lose, restart game.
-4. Continue making matches until you win or lose.
+1. Enter information into the questionnaire.
+2. Click the submit button to receive your name.
